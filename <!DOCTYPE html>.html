@@ -1,5 +1,6 @@
 <!DOCTYPE html> 
 <html>
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <head>
         <meta charset="utf-8" />
         <title>Booki</title>
@@ -7,7 +8,7 @@
     <body>
         <header>
           <div id= "enTete">
-              <img src=# alt=logo>
+              <img src="./images/logo/Booki.png" alt=logo>
               <nav>
                   <ul>
                       <li><a href=#>Hebergements</a></li>
@@ -18,25 +19,32 @@
           <h1>Trouvez des hebergements pour des vacances de reve</h1>
           <p>En plein centre ville ou en pleine nature</p>
           <div id="recherche">
-
+            <form method="recherche" action="traitement.php">
+                <p>
+                    <img src="#" alt="localisation">
+                    <label for="recherche"></label> <input type="text" name="recherche" id="recherche" />&nbsp;<strong>Rechercher</strong>
+                </p>
+             </form>
           </div>
-          <nav>
+          <nav id="filtres">
+              <h3>Filtres</h3>
               <ul>
-                  <li>Filtres</li>
-                  <li>Economique</li>
-                  <li>Familial</li>
-                  <li>Romantique</li>
-                  <li>Animaux autorises</li>
+                  <li><a href=# ></a>Economique</li>
+                  <li><a href=# ></a>Familial</li>
+                  <li><a href=# ></a>Romantique</li>
+                  <li><a href=# ></a>Animaux autorises</li>
               </ul>
+             
           </nav>
+          <p>Plus de 500 logements disponibles</p>
         </header>
         <main>
-            <section>
+            <section id="sectionHaut">
                 <div id="hebergements">
-                    <h1>Hebergements à Marseille</h1>
+                    <h1><a href=# ></a>Hebergements à Marseille</h1>
                     <div id="photo1">
                         <article>
-                            <img src=# alt=auberge>
+                            <img src="#" alt=auberge>
                             <h2>Auberge La cannebiere</h2>
                             <p>Nuit à partir de 25$</p>
                         </article>
@@ -71,8 +79,9 @@
                     <a href=# >Afficher plus</a>
                 </div>
                 <aside>
-                 <div id="titre">
-                     <h1>Les plus populaires</h1>
+                 <div id="lesPlusPopulaires">
+                     <h1><a href=# ></a>Les plus populaires</h1>
+                     <img src="#" alt="graph">
                  </div>
                  <div id="photo3">
                      <article>
@@ -102,31 +111,36 @@
                 </aside>
 
             </section>
-            <section>
+            <section id ="sectionBas">
                <div id="titre" >
-                   <h1>Activites à Marseille</h1>
+                   <h1><a href=# ></a>Activites à Marseille</h1>
                </div>
+               <div id ="photoActivite">
                <article>
                    <img src=# alt=photo>
                    <h2>Vieux port</h2>
                </article>
                <article>
                 <img src=# alt=photo>
-                <h2>Fort de pomegues</h2>
+                <h2>Vieux port</h2>
                 <img src=# alt=photo>
-                <h2>Iles du Frioul</h2>
-            </article>
-            <article>
+                <h2>Vieux port</h2>
+               </article>
+               <article>
                 <img src=# alt=photo>
-                <h2>Parc National des Calanques</h2>
-            </article>
-            <article>
+                <h2>Vieux port</h2>
+               </article>
+               <article>
                 <img src=# alt=photo>
-                <h2>Notre-Dame-de-la-Gardet</h2>
+                <h2>Vieux port</h2>
                 <img src=# alt=photo>
-                <h2>Parc Longchamp</h2>
-            </article>
-                 
+                <h2>Vieux port</h2>
+                </article>
+                <article>
+                    <img src=# alt=photo>
+                    <h2>Vieux port</h2>
+                </article>
+               </div>  
             </section>
         </main>
         <footer>
@@ -152,6 +166,6 @@
                 <li><a href=#>Nous contacter</a></li>
             </ul>
         </article>
-        </footer>
+        </footer> 
     </body>
 </html>

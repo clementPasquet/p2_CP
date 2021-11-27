@@ -1,0 +1,119 @@
+/*  Mon code Css*/
+
+@font-face {
+    font-family: "raleway";
+    src: url("./raleway/Raleway-Regular.ttf")
+}
+body
+{
+    width: 992px;
+    margin: auto;
+    font-family: "raleway";
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*-------Header-------------*/
+header{
+    
+    display:flex;
+    flex-direction:column;
+}
+
+#enTete {
+    display:flex;
+    justify-content:space-between;
+}
+#filtres{
+    display:flex;
+}
+#enTete nav ul{
+  
+    list-style-type: none;
+    display:flex;
+    justify-content:space-between;
+    
+
+}
+#enTete nav li {
+    margin :5px 20px 0px 20px
+
+}
+
+header h1 {
+    font-size:25px;
+
+}
+
+#filtres ul {
+    
+    list-style-type: none;
+    width:70%;
+    display:flex;
+    justify-content: space-around;
+
+  
+}
+#filtres li{
+    margin: 0 20px 0px 20px
+}
+
+/*----------Main------------*/
+
+main h1 {
+font-size:20px;
+}
+main h2 {
+    font-size: 15px;
+
+}
+main p{
+    font-size:10px;
+}
+section img {
+ 
+}
+
+
+#sectionHaut {
+    margin:auto;
+    display:flex;
+    justify-content:space-around;
+}
+
+#hebergements{
+    background-color: #F2F2F2;
+    opacity: 0,3
+}
+
+#photo1{
+    display:flex;
+}
+
+#photo2{
+    display:flex;
+}
+
+aside{
+    
+    background-color: #F2F2F2;
+    opacity: 0,3
+   
+}
+#lesPlusPopulaires{
+    display:flex;
+    justify-content: space-between;
+}
+#photoActivite{
+    display:flex;
+    justify-content: space-between;
+}
+footer{
+    display:flex;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+}
+
+
+
+

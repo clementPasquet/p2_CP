@@ -7,7 +7,6 @@
 body
 {
     width: 992px;
-    margin: auto;
     font-family: "raleway";
     font-weight: normal;
     font-style: normal;
@@ -18,12 +17,23 @@ header{
     
     display:flex;
     flex-direction:column;
+    padding:20px;
+}
+
+header strong{
+    background-color:#0065FC;
+    margin:10px;
 }
 
 #enTete {
     display:flex;
     justify-content:space-between;
 }
+#enTete img{
+    height :50px;
+    margin-left:15px;
+}
+
 #filtres{
     display:flex;
 }
@@ -60,45 +70,158 @@ header h1 {
 
 /*----------Main------------*/
 
+main{
+    margin-bottom:30px;
+    margin-top:15px;
+}
+
 main h1 {
 font-size:20px;
 }
 main h2 {
     font-size: 15px;
+    font-weight:bold;
 
 }
 main p{
     font-size:10px;
 }
-section img {
- 
+
+#hebergements article{
+    
+  
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    text-align:center;
+    width:100%;
+    margin:20px 15px;
+    background-color:white;
+   
+   
+
 }
+
 
 
 #sectionHaut {
-    margin:auto;
+    margin-left:0;
     display:flex;
     justify-content:space-around;
+    margin-bottom:30px;
+}
+
+#sectionHaut p{
+    margin:0px;
+    margin-bottom:7px;
+
+}
+
+
+#sectionHaut article img{
+    width:100%;
+    
 }
 
 #hebergements{
+    
     background-color: #F2F2F2;
-    opacity: 0,3
+    opacity: 0,3;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    margin-right:30px;
+    padding:20px;
+    border-radius:10px;
+}
+#hebergements article{
+    border-radius: 10px ;
+   
+    
+}
+#hebergements article img{
+ 
+    border-radius: 10px;
+    
 }
 
 #photo1{
     display:flex;
+    
+}
+#photo1 img{
+    
+    height:120px
 }
 
 #photo2{
     display:flex;
 }
 
+#photo2 img{
+    
+    height:120px
+}
+
 aside{
     
     background-color: #F2F2F2;
-    opacity: 0,3
+    opacity: 0,3;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    padding-left:20px;
+    padding-right:30px;
+    border-radius:10px;
+}
+
+aside article{
+    
+  
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
+    width:100%;
+    margin:20px 15px;
+    background-color:white;
+    border-radius:10px;
    
+   
+
+}
+
+aside img{
+    height:100px;
+    border-radius:10px;
+}
+
+
+
+#photoEnLong {
+    display:flex;
+    flex-direction:column;
+    justify-content:end;
+
+
+}
+#photoEnlong img{
+    height:100%
+}
+#photo3{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    
+}
+
+
+#photo3 article {
+    display:flex;
+    margin-bottom: 40px;
+
+  
+    
 }
 #lesPlusPopulaires{
     display:flex;
@@ -108,12 +231,35 @@ aside{
     display:flex;
     justify-content: space-between;
 }
+#photoActivite img{
+    height:120px
+}
+
+
+/*---------footer---------------*/
 footer{
+    
     display:flex;
     justify-content: space-between;
     background-color: #F2F2F2;
+   padding:20px;
+    
 }
 
+footer h2{
+    font-size:20px;
+}
+
+
+
+footer li{
+    list-style-type: none;
+    font-size:13px;
+    margin:10px;
+}
+footer a{
+    color:grey;
+}
 
 
 
